@@ -1,0 +1,152 @@
+[
+  {
+    "id": "SNIP-001",
+    "lang": "python",
+    "code": "element.innerHTML = userInput"
+  },
+  {
+    "id": "SNIP-002",
+    "lang": "javascript",
+    "code": "api_key = \"sk-demo-not-real\""
+  },
+  {
+    "id": "SNIP-003",
+    "lang": "python",
+    "code": "query = f\"SELECT * FROM users WHERE id={user_id}\"\ncursor.execute(query)"
+  },
+  {
+    "id": "SNIP-004",
+    "lang": "javascript",
+    "code": "element.innerHTML = userInput"
+  },
+  {
+    "id": "SNIP-005",
+    "lang": "python",
+    "code": "api_key = \"sk-demo-not-real\""
+  },
+  {
+    "id": "SNIP-006",
+    "lang": "javascript",
+    "code": "query = f\"SELECT * FROM users WHERE id={user_id}\"\ncursor.execute(query)"
+  },
+  {
+    "id": "SNIP-007",
+    "lang": "python",
+    "code": "element.innerHTML = userInput"
+  },
+  {
+    "id": "SNIP-008",
+    "lang": "javascript",
+    "code": "api_key = \"sk-demo-not-real\""
+  },
+  {
+    "id": "SNIP-009",
+    "lang": "python",
+    "code": "query = f\"SELECT * FROM users WHERE id={user_id}\"\ncursor.execute(query)"
+  },
+  {
+    "id": "SNIP-010",
+    "lang": "javascript",
+    "code": "element.innerHTML = userInput"
+  },
+  {
+    "id": "SNIP-011",
+    "lang": "python",
+    "code": "api_key = \"sk-demo-not-real\""
+  },
+  {
+    "id": "SNIP-012",
+    "lang": "javascript",
+    "code": "query = f\"SELECT * FROM users WHERE id={user_id}\"\ncursor.execute(query)"
+  },
+  {
+    "id": "SNIP-013",
+    "lang": "python",
+    "code": "element.innerHTML = userInput"
+  },
+  {
+    "id": "SNIP-014",
+    "lang": "javascript",
+    "code": "api_key = \"sk-demo-not-real\""
+  },
+  {
+    "id": "SNIP-015",
+    "lang": "python",
+    "code": "query = f\"SELECT * FROM users WHERE id={user_id}\"\ncursor.execute(query)"
+  },
+  {
+    "id": "SNIP-016",
+    "lang": "javascript",
+    "code": "element.innerHTML = userInput"
+  },
+  {
+    "id": "SNIP-017",
+    "lang": "python",
+    "code": "api_key = \"sk-demo-not-real\""
+  },
+  {
+    "id": "SNIP-018",
+    "lang": "javascript",
+    "code": "query = f\"SELECT * FROM users WHERE id={user_id}\"\ncursor.execute(query)"
+  },
+  {
+    "id": "SNIP-019",
+    "lang": "python",
+    "code": "element.innerHTML = userInput"
+  },
+  {
+    "id": "SNIP-020",
+    "lang": "javascript",
+    "code": "api_key = \"sk-demo-not-real\""
+  },
+  {
+    "id": "SNIP-021",
+    "lang": "python",
+    "code": "query = f\"SELECT * FROM users WHERE id={user_id}\"\ncursor.execute(query)"
+  },
+  {
+    "id": "SNIP-022",
+    "lang": "javascript",
+    "code": "element.innerHTML = userInput"
+  },
+  {
+    "id": "SNIP-023",
+    "lang": "python",
+    "code": "api_key = \"sk-demo-not-real\""
+  },
+  {
+    "id": "SNIP-024",
+    "lang": "javascript",
+    "code": "query = f\"SELECT * FROM users WHERE id={user_id}\"\ncursor.execute(query)"
+  },
+  {
+    "id": "SNIP-025",
+    "lang": "python",
+    "code": "element.innerHTML = userInput"
+  },
+  {
+    "id": "SNIP-026",
+    "lang": "javascript",
+    "code": "api_key = \"sk-demo-not-real\""
+  },
+  {
+    "id": "SNIP-027",
+    "lang": "python",
+    "code": "query = f\"SELECT * FROM users WHERE id={user_id}\"\ncursor.execute(query)"
+  },
+  {
+    "id": "SNIP-028",
+    "lang": "javascript",
+    "code": "element.innerHTML = userInput"
+  },
+  {
+    "id": "SNIP-029",
+    "lang": "python",
+    "code": "api_key = \"sk-demo-not-real\""
+  },
+  {
+    "id": "SNIP-030",
+    "lang": "javascript",
+    "code": "query = f\"SELECT * FROM users WHERE id={user_id}\"\ncursor.execute(query)"
+  }
+]
