@@ -1,0 +1,35 @@
+{
+  "answer": "Verdict: fail \u2014 CWEs: {'cwes': ['CWE-89']}",
+  "trace": [
+    {
+      "pass": "initial",
+      "findings": {
+        "issues": [
+          {
+            "type": "sql_injection",
+            "severity": "high"
+          }
+        ]
+      }
+    },
+    {
+      "pass": "reflection",
+      "critique": {
+        "verdict": "fail",
+        "confirmed_issue": "sql_injection",
+        "missed_on_first_pass": false
+      }
+    },
+    {
+      "pass": "cwe_map",
+      "cwes": {
+        "cwes": [
+          "CWE-89"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "snippet_id": "SNIP-003"
+  }
+}

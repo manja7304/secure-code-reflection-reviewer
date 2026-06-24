@@ -156,9 +156,31 @@ Languages: Python and JavaScript. Rotating vulnerability classes for demo variet
 
 ## Video Demo
 
-[![Demo Video](https://img.shields.io/badge/Demo-YouTube-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=PLACEHOLDER)
+- **Walkthrough:** [`demos/WALKTHROUGH.md`](demos/WALKTHROUGH.md) — step-by-step demo with captured live output
+- **Captured JSON:** [`demos/captured/response.json`](demos/captured/response.json)
+- Record your 2-min Loom using `python scripts/run_demo.py` (works offline with `USE_MOCK_LLM=true`)
 
-> Record using [`demos/RECORDING_SCRIPT.md`](demos/RECORDING_SCRIPT.md) — demo SNIP-003 SQLi trace.
+### Live Demo Output
+
+```json
+{
+  "answer": "Verdict: fail \u2014 CWEs: {'cwes': ['CWE-89']}",
+  "trace_count": 3,
+  "trace_first": {
+    "pass": "initial",
+    "findings": {
+      "issues": [
+        {
+          "type": "sql_injection",
+          "severity": "high"
+        }
+      ]
+    }
+  }
+}
+```
+
+> Full trace and request payloads in [`demos/captured/`](demos/captured/). See [`demos/RECORDING_SCRIPT.md`](demos/RECORDING_SCRIPT.md) for narration cues.
 
 ---
 

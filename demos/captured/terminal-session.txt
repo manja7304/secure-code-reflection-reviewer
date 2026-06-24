@@ -1,0 +1,53 @@
+# Terminal replay — Secure Code Reflection Reviewer
+# Captured: 2026-06-24 17:41:53 UTC · USE_MOCK_LLM=true
+
+$ cd secure-code-reflection-reviewer
+$ export USE_MOCK_LLM=true LLM_PROVIDER=mock
+$ python scripts/run_demo.py
+
+▸ Agent API demo
+  POST /api/v1/agent/run
+Request:
+{
+  "query": "review",
+  "context": {
+    "snippet_id": "SNIP-003"
+  }
+}
+
+HTTP 200
+{
+  "answer": "Verdict: fail \u2014 CWEs: {'cwes': ['CWE-89']}",
+  "trace": [
+    {
+      "pass": "initial",
+      "findings": {
+        "issues": [
+          {
+            "type": "sql_injection",
+            "severity": "high"
+          }
+        ]
+      }
+    },
+    {
+      "pass": "reflection",
+      "critique": {
+        "verdict": "fail",
+        "confirmed_issue": "sql_injection",
+        "missed_on_first_pass": false
+      }
+    },
+    {
+      "pass": "cwe_map",
+      "cwes": {
+        "cwes": [
+          "CWE-89"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "snippet_id": "SNIP-003"
+  }
+}
